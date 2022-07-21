@@ -34,3 +34,30 @@ form button {
   font-weight: bold;
   z-index: 1;
 }
+
+.card {
+  width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
+}
+
+h2 {
+  color: #091e42;
+  text-align: center;
+  font-size: 10vh;
+  position: relative;
+  top: -10px;
+  padding-bottom: -200px;
+}
+
+h4 {
+  color: #091e42;
+  text-align: center;
+  font-size: 7vh;
+  position: relative;
+  top: -60px;
+  padding-bottom: -200px;
+}
