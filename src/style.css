@@ -28,7 +28,7 @@ form button {
   color: white;
   background-color: #ff6b00;
   position: absolute;
-  left: 67%;
+  left: 68%;
   top: 50px;
   font-size: 2vh;
   font-weight: bold;
@@ -115,7 +115,7 @@ span {
 
 .btns #celcius {
   position: relative;
-  right: 4px;
+  right: 5px;
 }
 
 .btns button:hover {
