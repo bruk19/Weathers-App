@@ -61,3 +61,64 @@ h4 {
   top: -60px;
   padding-bottom: -200px;
 }
+
+p {
+  color: #091e42;
+  text-align: center;
+  font-size: 10vh;
+  position: relative;
+  top: -100px;
+  padding-bottom: -200px;
+}
+
+img {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: auto;
+  position: relative;
+  top: -200px;
+  height: 150px;
+}
+
+div #error {
+  color: red;
+  position: relative;
+  top: 70px;
+  font-size: 4vh;
+}
+
+.add-info {
+  position: relative;
+  top: -231px;
+  margin-left: 13%;
+  height: 0;
+}
+
+span {
+  color: #091e42;
+  font-size: 25px;
+}
+
+.btns {
+  position: relative;
+  top: 180px;
+  left: 140px;
+}
+
+.btns button {
+  width: 50px;
+  padding: 5px;
+  border: none;
+  color: #091e42;
+  font-weight: bold;
+}
+
+.btns #celcius {
+  position: relative;
+  right: 4px;
+}
+
+.btns button:hover {
+  background-color: #ff6b00;
+  color: #e5e5e5;
+}
