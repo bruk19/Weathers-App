@@ -22,3 +22,23 @@ const cityWeather = (city_name = 'Addis Ababa') => {
 
     });
 };
+
+window.onload = () => {
+    const city_name = document.getElementById('city_name');
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      if (city_name.value === '') {
+        const errorMessage = document.createElement('div');
+        errorMessage.innerHTML = '<p id = "error">Please Fill city name</p>';
+        document.body.append(errorMessage);
+        setTimeout(() => {
+          errorMessage.innerText = '';
+        }, 3000);
+      } else {
+        cityWeather(city_name.value);
+        clearField();
+      }
+    });
+  };
+  cityWeather();
