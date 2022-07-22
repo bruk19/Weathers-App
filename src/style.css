@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #e5e5e7;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #3c3a39;
+  background-color: #3f3d3c;
 }
 
 form input {
@@ -23,9 +23,9 @@ form input {
 
 form button {
   width: 10%;
-  height: 36px;
+  height: 37px;
   border: none;
-  color: white;
+  color: #fff;
   background-color: #ff6b00;
   position: absolute;
   left: 68%;
@@ -115,7 +115,7 @@ span {
 
 .btns #celcius {
   position: relative;
-  right: 5px;
+  right: 6px;
 }
 
 .btns button:hover {
